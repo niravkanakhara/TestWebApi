@@ -17,6 +17,7 @@ namespace TestWebapi
             Add(new Product { Name = "Computer", Category = "Electronics", Price = 1000 });
             Add(new Product { Name = "Laptop", Category = "Electronics", Price = 8000 });
             Add(new Product { Name = "Google Pixel 2", Category = "Phone", Price = 150 });
+            Add(new Product { Name = "Test", Category = "Phone", Price = 150 });
         }
 
         public IEnumerable<Product> GetAll()
