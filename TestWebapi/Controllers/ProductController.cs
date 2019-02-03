@@ -23,9 +23,9 @@ namespace TestWebapi.Controllers
         }
 
         // GET: api/Product/5
-        public string Get(int id)
+        public IHttpActionResult Get(int id)
         {
-            return "value";
+            return Json(id);
         }
 
         // POST: api/Product
